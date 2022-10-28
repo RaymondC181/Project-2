@@ -13,26 +13,35 @@
 </head>
 <body>
 <div>
-    <h1>Page 1</h1>
-    
+    <h1> &nbsp; <em>What does it mean to recycle?</em></h1>
+
     <div class = menuContainer>
-        <a href=page2.html> Page2</a>
-        <a href=page3.html> Page2</a>
-        <a href=page4.html> Page2</a>
+        <a href=page2.html id = "page2"> The 3 Rs</a>
+        <a href=page3.html id = "page3"> Why Recycle?</a>
+        <a href=page4.html id = "page4"> How can I help?</a>
     </div>
 
     <div class = formContainer>
-        <form>
-            <fieldset>
-              <label for="nameField">Name</label>
-              <input type="text" placeholder="CJ Patoilo" id="nameField">
-              <label for="commentField">Comment</label>
-              <textarea placeholder="Enter here" id="commentField"></textarea>
-              <input class="button-primary" type="submit" value="Send">
-            </fieldset>
-          </form>
+        <form
+        action="https://formspree.io/f/xbjbzqpk"
+        method="POST"
+        >
+        <label>
+            Your email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+        </form>
         </div>
 
+
+
+        
  </div>
 </body>
 </html>
