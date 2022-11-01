@@ -1,11 +1,28 @@
-.menuContainer{
-    display: grid;
-    grid-template-columns:1fr; 
-    grid-template-rows:repeat(3, 1fr) ;
-    margin: 20px;
-    width: 200px;
-}
+.container{
+    display: flex ;
+    flex-direction: row;
+    justify-content: right ;
+    align-items: center;
+  }
+  
+  body{
+    margin: 0px;
+  }
+  
+  .navbar {
+    height: 60px;
+    width: 100%;
+    background-color:  black;
+  }
+  
+  .item {
+    margin: 10px;
+    color: white;
+  }
+
 
 .formContainer{
     margin: 10px;
 }
+
+
