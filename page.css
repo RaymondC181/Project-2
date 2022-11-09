@@ -1,3 +1,12 @@
+.whole{
+  border: solid black 10px;
+  height: 969px;
+}
+
+#intro {
+  text-align: center;
+}
+
 .container{
     display: flex ;
     flex-direction: row;
@@ -23,6 +32,9 @@
 
 .formContainer{
     margin: 10px;
+    position: absolute;
+    bottom: 0;
+   
 }
 
 @media screen and (max-width: 768px) {
