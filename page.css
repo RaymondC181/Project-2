@@ -1,5 +1,29 @@
+.circleContainer
+{
+ height: 300px;
+ width: 300px;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  color: white;
+  margin: auto;
+  gap: 20px;
+}
+
+#circle:hover{
+  box-shadow: 5px 5px lightgreen;
+}
+
+#circle{ 
+  width:100px; 
+  height:100px; 
+  border-radius: 50%; 
+  background-color: green;
+  padding: 25px;
+}
+
 .whole{
-  border: solid black 10px;
+  border: solid black 100px;
   height: 969px;
 }
 
@@ -34,6 +58,7 @@
     margin: 10px;
     position: absolute;
     bottom: 0;
+    width:85%;
    
 }
 
@@ -55,6 +80,40 @@
   }
 }
 
+.table{
+  width: 50%;
+  margin: 0px auto;
+  border: solid 3px white;
+}
+th, tr {
+  background-color: #96D4D4;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+}
+.images>img{
+  height: 300px;  
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+#one{
+  grid-column-start: 1;
+}
+#two{
+  grid-column-start: 2;
+}
+#three{
+  grid-column-start: 1;
+}
+#four{
+  grid-column-start: 2;
+}
 
 
 
