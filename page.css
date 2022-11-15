@@ -65,6 +65,10 @@
 
 @media screen and (max-width: 768px) {
 
+  .whole{
+    height: 1300px;
+  }
+
   .navbar{
       height: 350px;
       text-align: center;
@@ -91,6 +95,10 @@
 
 .short-text { 
   display: none; 
+  text-align: center;
+  font-weight: 900;
+  margin: 0 auto;
+  font-size: 50px;
 }
 
 @media (max-width: 768px) {
