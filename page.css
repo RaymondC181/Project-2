@@ -78,6 +78,24 @@
   .item{
       margin: 20px;
   }
+  .whole{
+    border: 50px;
+  }
+
+  .images>img {
+    display: none;
+  }
+
+}
+
+.short-text { 
+  display: none; 
+}
+
+@media (max-width: 768px) {
+    .short-text { 
+      display: inline-block; 
+    }
 }
 
 .table{
