@@ -23,8 +23,9 @@
 }
 
 .whole{
-  border: solid black 100px;
+  border: solid black 85px;
   height: 969px;
+  background-color:beige;
 }
 
 #intro {
